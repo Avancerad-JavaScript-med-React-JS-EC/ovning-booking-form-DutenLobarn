@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    height: 30rem;
+    width: 20rem;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.wrapper-title{
+    height: 3.5rem;
+    width: 100%;
+    background-color: gray;
+    padding-top: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.citys-wrapper{
+    height: 2.8rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.city-input-left{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(179, 178, 178);
+    padding: 3px 0px;
+}
+
+.city-input-right{
+    height: 100%;
+    width: 50%;
+    background-color: lightgrey;
+    padding: 3px 0px;
+}
+
+.city-name{
+    font-weight: bold;
+}
+
+.city-time{
+    font-size: 8px;
+    font-weight: 100;
+}
+
+
+
+.form-wrapper{
+    height: 68%;
+}
+
+.class-wrapper{
+    height: 3.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.class-wrapper label{
+    filter: grayscale(1);
+}
+
+.select-wrapper{
+    height: 3.3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-select{
+    height: 3rem;
+    display: grid;
+    justify-content: space-around;
+    font-size: small;
+}
+
+.form-select h4{
+    display: flex;
+}
+
+.collum1{
+    height: 2rem;
+    width: 9rem;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 5px;
+    border: solid;
+}
+
+.form-name{
+    height: 4.3rem;
+    display: grid;
+    justify-content: inherit;
+    font-size: small;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.form-name h4{
+    display: flex;
+}
+
+.form-name input{
+    height: 2rem;
+    width: 98%;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 5px;
+    border: solid;
+}
+
+
+.terms-wrapper{
+    display: flex;
+    height: 4rem;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.terms-wrapper p{
+    font-size: small;
+    font-weight: 200;
+    padding: 0 5px;
+}
+
+
+.btn{
+    background-color: black;
+    color: white;
+    height: 3.5rem;
+    width: 98%;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: solid;
+    margin: -1rem;
+}
